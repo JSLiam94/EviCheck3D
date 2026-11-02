@@ -1,0 +1,21 @@
+{
+  "schema": "evicheck3d-train-v1",
+  "execution_environment": "dedicated_single_gpu",
+  "assets": {
+    "base_model": "../private/models/Qwen3-14B",
+    "ct_clip_code": "../private/models/CT-CLIP",
+    "ct_clip_checkpoint": "../private/models/CT-CLIP_official.pt",
+    "ct_clip_text": "../private/models/ct_clip_text"
+  },
+  "pool": {
+    "manifest_path": "../private/data/full_train_manifest_private.json",
+    "manifest_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "init_seed": 43,
+  "train_seed": 43,
+  "updates": 1024,
+  "lambda_pref": 0.1,
+  "resume": null,
+  "output_dir": "../private/outputs/train-run-001",
+  "wall_seconds": 86400
+}

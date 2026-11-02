@@ -1,0 +1,30 @@
+{
+  "protocol": "center-paired-source-imports-v1",
+  "files": {
+    "models": {
+      "filename": "models.py",
+      "sha256": "7a15e5bc3b38babdd2f86b900c1fd5da1c1549fb9f7520c269bbbb2f520f111c",
+      "upstream_pin": "1e6879e38cdff72d4682764214383fee9eaa7be0197293c7fb89cdfb59442e04"
+    },
+    "dense_spatial": {
+      "filename": "dense_spatial.py",
+      "sha256": "04889b031ff661ae0f5ea39e1668e1872918f09b6dcde3c7554662a178d9206f",
+      "upstream_pin": "04889b031ff661ae0f5ea39e1668e1872918f09b6dcde3c7554662a178d9206f"
+    },
+    "settings": {
+      "filename": "settings.py",
+      "sha256": "b986b642a44f11f1baa988356f419086ba4149753e1e77da063e57c2c2ed14ac",
+      "upstream_pin": "42c072b3c9f6b7298f0bac5ed118552144040de77c738af9d37d4d0b3bc01ece"
+    },
+    "edit_codec": {
+      "filename": "edit_codec.py",
+      "sha256": "b0e50c4100c4c58975ad3405a8d2307297c93ba827df5f0a9426cf82d58f8acc",
+      "upstream_pin": "b0e50c4100c4c58975ad3405a8d2307297c93ba827df5f0a9426cf82d58f8acc"
+    },
+    "weighted_edit_codec": {
+      "filename": "weighted_edit_codec.py",
+      "sha256": "f53365638140aae23f55f5570bb4d5736a992d2ac433f458976c1c7e75035d02",
+      "upstream_pin": "f53365638140aae23f55f5570bb4d5736a992d2ac433f458976c1c7e75035d02"
+    }
+  }
+}

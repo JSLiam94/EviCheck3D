@@ -1,0 +1,15 @@
+{
+  "schema": "evicheck3d-infer-v1",
+  "execution_environment": "dedicated_single_gpu",
+  "assets": {
+    "base_model": "../private/models/Qwen3-14B",
+    "ct_clip_code": "../private/models/CT-CLIP",
+    "ct_clip_checkpoint": "../private/models/CT-CLIP_official.pt",
+    "ct_clip_text": "../private/models/ct_clip_text"
+  },
+  "input_jsonl": "../private/data/infer.private.jsonl",
+  "checkpoint": "../private/outputs/train-run-001/checkpoint.pt",
+  "checkpoint_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "output_dir": "../private/outputs/infer-run-001",
+  "wall_seconds": 3600
+}

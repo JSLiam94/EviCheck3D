@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+private/
+data/
+outputs/
+models/
+*.pt
+*.pth
+*.safetensors
+*.nii
+*.nii.gz
+*.sqlite*
+*.private.*
+*.local.json
+LOCAL_SOURCE_MANIFEST.json
